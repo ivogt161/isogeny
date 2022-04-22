@@ -12,7 +12,7 @@ Additionally, the file check_Theorem_3-7.py verifies the classification of lift-
 
 The data files are in the subfolder data:
 
-- The files gl2_N.txt contains data of all subgroups of GL_2(Z/NZ) in the form [label]: [generators].  This data is generated from Drew Sutherland's data on subgroups of GL_2(Z/2^nZ) for n <= 6 that can be found at http://math.mit.edu/~drew/gl_2_full.tar.  All labeling of groups is consistent with those labels. The file used to generate these data files is parse_drew_data.py from the auxiliary code folder.
+- The files gl2_N.txt contains data of all subgroups of GL_2(Z/NZ) in the form [label]: [generators] for N = ell^n with ell = 2 or 3 and n<=5.  The data file for ell = 2 and n=6 is too large to store on GitHub, and so must be generated to use.  This data is generated from Drew Sutherland's data on subgroups of GL_2(Z/ell^nZ) that can be found at http://math.mit.edu/~drew/gl_2_full.tar.  All labeling of groups is consistent with those labels. The file used to generate these data files is parse_drew_data.py from the auxiliary code folder.
 
 - The files label_N_cosets.txt contain lists of coset representative for the group with that label inside of GL_2(Z/NZ).  The file used to generate these data files is coset_reps.py from the auxiliary code folder.
 
